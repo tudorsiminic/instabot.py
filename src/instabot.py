@@ -579,9 +579,9 @@ class InstaBot:
             # ------------------- Unfollow -------------------
             self.new_auto_mod_unfollow()
             # ------------------- Comment -------------------
-            self.new_auto_mod_comments()
+            #self.new_auto_mod_comments()
             # Bot iteration in 1 sec
-            time.sleep(3)
+            time.sleep(1)
             # print("Tic!")
 
     def new_auto_mod_like(self):
@@ -776,7 +776,7 @@ class InstaBot:
                 except:
                     media_on_feed = []
                     self.write_log("Except on get_info!")
-                    time.sleep(20)
+                    time.sleep(1)
                     return 0
             else:
                 return 0
@@ -811,7 +811,7 @@ class InstaBot:
                 except:
                     self.media_on_feed = []
                     self.write_log("Except on get_media!")
-                    time.sleep(20)
+                    time.sleep(1)
                     return 0
             else:
                 return 0
