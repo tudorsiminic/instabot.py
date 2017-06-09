@@ -13,15 +13,12 @@ from instabot import InstaBot
 from unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    login="popcornfly10",
-    password="c0cac0la",
+    login="arhivox",
+    password="followthesun",
     like_per_day=3000,
     comments_per_day=1000,
-    tag_list=['follow4follow', 'f4f', 'cute', 'love', 'instagood', 'photooftheday', 'beautiful', 'tbt', 'happy', 'cute', 'fashion', 'me'
-    , 'picoftheday', 'selfie', 'summer', 'friends', 'instadaily', 'girl', 'fun', 'repost', 'art', 'smile', 'food', 'follow', 'like4like', 'tagsforlikes', 'instalike', 'likeforlike'
-    , 'followforfollow', 'l4l', 'followback', 'instafollow', 'likeforfollow', 'likeforlikes', '20likes', 'likeback', 'likes4likes', 'followher',
-    'followhim', 'lfl', 'pleasefollow', 'like4follow', 'teamfollowback', 'BTSBBMAs', 'izmirescort', 'PREMIOSMTVMIAW', 'BBMAs'],
-    tag_blacklist=['rain', 'thunderstorm'],
+    tag_list=['architecture', 'design', 'render', 'interiordesign', 'architectureporn', 'architecturelover'],
+    tag_blacklist=[],
     user_blacklist={},
     max_like_for_one_tag=500,
     follow_per_day=1000,

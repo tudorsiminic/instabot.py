@@ -114,17 +114,8 @@ class InstaBot:
                  follow_per_day=0,
                  follow_time=5 * 60 * 60,
                  unfollow_per_day=0,
-                 comment_list=[["this", "the", "your"],
-                               ["photo", "picture", "pic", "shot", "snapshot"],
-                               ["is", "looks", "feels", "is really"],
-                               ["great", "super", "good", "very good", "good",
-                                "wow", "WOW", "cool", "GREAT", "magnificent",
-                                "magical", "very cool", "stylish", "beautiful",
-                                "so beautiful", "so stylish", "so professional",
-                                "lovely", "so lovely", "very lovely", "glorious",
-                                "so glorious", "very glorious", "adorable",
-                                "excellent", "amazing"],[".", "..", "...", "!",
-                                                         "!!", "!!!"]],
+                 comment_list=[["Great", "Awesome"],
+                               ["atmosphere"]],
                  comments_per_day=0,
                  tag_list=['cat', 'car', 'dog'],
                  max_like_for_one_tag=5,
@@ -577,9 +568,9 @@ class InstaBot:
             # ------------------- Follow -------------------
             self.new_auto_mod_follow()
             # ------------------- Unfollow -------------------
-            self.new_auto_mod_unfollow()
+            #self.new_auto_mod_unfollow()
             # ------------------- Comment -------------------
-            #self.new_auto_mod_comments()
+            self.new_auto_mod_comments()
             # Bot iteration in 1 sec
             time.sleep(1)
             # print("Tic!")
